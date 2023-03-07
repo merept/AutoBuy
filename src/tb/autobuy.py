@@ -1,9 +1,11 @@
 import datetime
 import time
-from util import read
+
 from selenium import webdriver
 from selenium.common import NoSuchElementException
 from selenium.webdriver.common.by import By
+
+from util import read
 
 
 class TaoBao:
