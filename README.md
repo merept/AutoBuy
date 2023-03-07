@@ -44,13 +44,6 @@
 > 
 > 转到`\src\jd`目录下，打开`autobuy.py`文件
 > 
-> 找到
+> 找到`login_timeout = 10`
 > 
->``` python
-> edge_driver.find_element(By.LINK_TEXT, '你好，请登录').click()
-> print('请尽快扫码登录')
-> time.sleep(10)
-> ```
-> 这段代码
-> 
-> 将`time.sleep(10)`的`10`改为想要的秒数并保存即可
+> 更改数值为想要的秒数并保存即可

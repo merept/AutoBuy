@@ -7,6 +7,7 @@ from selenium.webdriver.common.by import By
 
 
 class JingDong:
+    login_timeout = 10
     now = datetime.datetime.now().strftime('%Y-%m-%d %H:%M:%S.%f')
     time_to_buy = '2023-03-07 16:55:00.00000000'
     main_page_url = 'https://www.jd.com/'
@@ -24,7 +25,7 @@ class JingDong:
 
         edge_driver.find_element(By.LINK_TEXT, '你好，请登录').click()
         print('请尽快扫码登录')
-        time.sleep(10)
+        time.sleep(self.login_timeout)
 
         edge_driver.get(self.cart_page_url)
 
