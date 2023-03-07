@@ -28,8 +28,6 @@ class JingDong:
 
         edge_driver.get(self.cart_page_url)
 
-
-
         read.confirm()
 
         while True:

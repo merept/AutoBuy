@@ -22,8 +22,6 @@ class TaoBao:
         print('请尽快扫码登录')
         time.sleep(3)
 
-
-
         read.confirm()
 
         while True:
