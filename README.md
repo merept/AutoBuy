@@ -42,7 +42,7 @@
 
 > **可在代码里更改京东的登陆时间**
 > 
-> 转到`\src\jd`目录下，打开`autobuy.py`文件
+> 转到`\src\autobuy`目录下，打开`jd.py`文件
 > 
 > 找到`login_timeout = 10`
 > 

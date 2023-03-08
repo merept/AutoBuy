@@ -1,5 +1,5 @@
-from jd.autobuy import JingDong
-from tb.autobuy import TaoBao
+from autobuy.jd import JingDong
+from autobuy.tb import TaoBao
 
 time_to_buy = '2023-03-07 18:30:00.00000000'
 
