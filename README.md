@@ -17,7 +17,7 @@
 
 1. 直接将本项目的 ZIP 压缩包下载下来并解压缩, 或[点击此处](https://github.com/merept/AutoBuy/archive/refs/heads/master.zip)下载压缩包
 2. 在`\src`目录下的`time.txt`中更改需要自动购买的时间并保存
-3. 在`\src`目录下打开终端，输入`python main.py`并回车
+3. 在`\src`目录下找到`run.bat`，双击运行 或者 在`\src`目录下打开终端，输入`python main.py`并回车
 4. 输入`1`或`2`选择[淘宝](#淘宝)或[京东](#京东)
 
 ### 淘宝
